@@ -1,17 +1,8 @@
-# Genesis Library
+# Extended Genesis Library
 
-Java library to create Tokens with different Properties, Underlyings and Operations.
+This Folder contains an extended version of the Genesis library provided by the FuturICT2.0 challenge to add the functionality needed for ReusabiliToken.
 
-* Properties: inherent characters of a token. I.e. name, symbol, token cap etc.
-* Underlyings: Gives value to the token. Is the token backed up by a commodity, service (i.e. storage), etc.
-* Operations: Actions which can be performed with the token. I.e. a transaction of value. Another example is the incentivization of a behavior. I.e. new token is mined for planting trees
 
-The project is written with the netbeans IDE.
+# New Features
 
-An example project exists, which uses this library. It is called GenesisApp: www.github.com/FuturICT2/GenesisApp. In case of questions, please contact: bmark@ethz.ch.
-
-## Software Architecture (little bit outdated) for the Challenge
-
-* Challenge 1: replace the SQLlite repository (of the GenesisApp project, the other repository :)) with ad blockchain technology
-* Challenge 2: extend the Operation interfaces
-![alt text](https://github.com/FuturICT2/Genesis/blob/master/toolUml.png)
+The main new feature is the *HumanConfirmableOperation* class. It implements the *IOperation* interface for tokens similar to the ReusabiliToken.
