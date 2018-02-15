@@ -1,0 +1,62 @@
+\hypertarget{namespace_visualization}{}\section{Visualization Namespace Reference}
+\label{namespace_visualization}\index{Visualization@{Visualization}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{namespace_visualization_a6e47cd3e3c863758dc8c30a9f27330f0}{visualize\+\_\+function}} (values, name, color, ax=None)
+\item 
+def \mbox{\hyperlink{namespace_visualization_a293d9622a724c53c2d8d3e09bb9721c6}{visualize\+\_\+market}} (smart\+\_\+contract, customer\+\_\+list, shop\+\_\+list, ax\+\_\+cus=None, ax\+\_\+shop=None, ax\+\_\+cp=None, ax\+\_\+ca=None)
+\item 
+def \mbox{\hyperlink{namespace_visualization_a02f7aadcda80e9aca64ca6aeb1843803}{diminishing\+\_\+returns}} (max\+\_\+val, b1, num\+\_\+samples=100)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}@package Visualization
+Implementation of a few visualizers
+\end{DoxyVerb}
+ 
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{namespace_visualization_a02f7aadcda80e9aca64ca6aeb1843803}\label{namespace_visualization_a02f7aadcda80e9aca64ca6aeb1843803}} 
+\index{Visualization@{Visualization}!diminishing\+\_\+returns@{diminishing\+\_\+returns}}
+\index{diminishing\+\_\+returns@{diminishing\+\_\+returns}!Visualization@{Visualization}}
+\subsubsection{\texorpdfstring{diminishing\+\_\+returns()}{diminishing\_returns()}}
+{\footnotesize\ttfamily def Visualization.\+diminishing\+\_\+returns (\begin{DoxyParamCaption}\item[{}]{max\+\_\+val,  }\item[{}]{b1,  }\item[{}]{num\+\_\+samples = {\ttfamily 100} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Test function that generates values from a diminishing returns function
+:param max_val: function cap
+:param b1:0 >= some value <= 1
+:param num_samples: the number of values to generate
+:return: function values
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespace_visualization_a6e47cd3e3c863758dc8c30a9f27330f0}\label{namespace_visualization_a6e47cd3e3c863758dc8c30a9f27330f0}} 
+\index{Visualization@{Visualization}!visualize\+\_\+function@{visualize\+\_\+function}}
+\index{visualize\+\_\+function@{visualize\+\_\+function}!Visualization@{Visualization}}
+\subsubsection{\texorpdfstring{visualize\+\_\+function()}{visualize\_function()}}
+{\footnotesize\ttfamily def Visualization.\+visualize\+\_\+function (\begin{DoxyParamCaption}\item[{}]{values,  }\item[{}]{name,  }\item[{}]{color,  }\item[{}]{ax = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}plot a function
+:param values: function values
+:param name: name of the function
+:param color: color of te plot
+:param ax: the axis on which to plot
+:return: plot axis
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespace_visualization_a293d9622a724c53c2d8d3e09bb9721c6}\label{namespace_visualization_a293d9622a724c53c2d8d3e09bb9721c6}} 
+\index{Visualization@{Visualization}!visualize\+\_\+market@{visualize\+\_\+market}}
+\index{visualize\+\_\+market@{visualize\+\_\+market}!Visualization@{Visualization}}
+\subsubsection{\texorpdfstring{visualize\+\_\+market()}{visualize\_market()}}
+{\footnotesize\ttfamily def Visualization.\+visualize\+\_\+market (\begin{DoxyParamCaption}\item[{}]{smart\+\_\+contract,  }\item[{}]{customer\+\_\+list,  }\item[{}]{shop\+\_\+list,  }\item[{}]{ax\+\_\+cus = {\ttfamily None},  }\item[{}]{ax\+\_\+shop = {\ttfamily None},  }\item[{}]{ax\+\_\+cp = {\ttfamily None},  }\item[{}]{ax\+\_\+ca = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Function the visualizes the market
+:param smart_contract: the smart contract containing the state of the block chain
+:param customer_list: a list of customers in the block chain
+:param shop_list: a list of shops in the block chain
+:param ax_cus: the axis on which we plot the cumulative customer reputation
+:param ax_shop: the axis on which we plot the cumulative shop reputation
+:param ax_cp: the axis on which we plot the number of times a customer spent a coin
+:param ax_ca: the axis on which cumulative shop coin count
+:return: plot axes
+\end{DoxyVerb}
+ 

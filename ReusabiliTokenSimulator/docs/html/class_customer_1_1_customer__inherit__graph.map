@@ -1,0 +1,5 @@
+<map id="Customer.Customer" name="Customer.Customer">
+<area shape="rect" id="node3" href="$class_customer_1_1_bad_customer.html" title="Customer.BadCustomer" alt="" coords="5,155,168,181"/>
+<area shape="rect" id="node4" href="$class_customer_1_1_good_customer.html" title="Customer.GoodCustomer" alt="" coords="192,155,363,181"/>
+<area shape="rect" id="node5" href="$class_customer_1_1_neutral_customer.html" title="Customer.NeutralCustomer" alt="" coords="387,155,570,181"/>
+</map>

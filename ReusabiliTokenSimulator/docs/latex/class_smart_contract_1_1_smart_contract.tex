@@ -1,0 +1,139 @@
+\hypertarget{class_smart_contract_1_1_smart_contract}{}\section{Smart\+Contract.\+Smart\+Contract Class Reference}
+\label{class_smart_contract_1_1_smart_contract}\index{Smart\+Contract.\+Smart\+Contract@{Smart\+Contract.\+Smart\+Contract}}
+
+
+Inheritance diagram for Smart\+Contract.\+Smart\+Contract\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=227pt]{class_smart_contract_1_1_smart_contract__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Smart\+Contract.\+Smart\+Contract\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=227pt]{class_smart_contract_1_1_smart_contract__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_smart_contract_1_1_smart_contract_ae0684adf8d361d2cb2ab0f3e915956c9}\label{class_smart_contract_1_1_smart_contract_ae0684adf8d361d2cb2ab0f3e915956c9}} 
+def {\bfseries \+\_\+\+\_\+init\+\_\+\+\_\+} (self, owner\+\_\+address)
+\item 
+\mbox{\Hypertarget{class_smart_contract_1_1_smart_contract_a1d9defa78b63a8f0aa1bee8dced6df03}\label{class_smart_contract_1_1_smart_contract_a1d9defa78b63a8f0aa1bee8dced6df03}} 
+def {\bfseries set\+\_\+oracle} (self, sender\+\_\+address, shop\+\_\+oracle, time\+\_\+oracle)
+\item 
+\mbox{\Hypertarget{class_smart_contract_1_1_smart_contract_a654ecc9286669fd414850ae961ab0e3a}\label{class_smart_contract_1_1_smart_contract_a654ecc9286669fd414850ae961ab0e3a}} 
+def {\bfseries set\+\_\+coin\+\_\+limit} (self, sender\+\_\+address, coin\+\_\+limit)
+\item 
+\mbox{\Hypertarget{class_smart_contract_1_1_smart_contract_ad5f5a707acec0876eefca40a7094af10}\label{class_smart_contract_1_1_smart_contract_ad5f5a707acec0876eefca40a7094af10}} 
+def {\bfseries set\+\_\+reputation\+\_\+limit} (self, sender\+\_\+address, reputation\+\_\+limit)
+\item 
+\mbox{\Hypertarget{class_smart_contract_1_1_smart_contract_ac6c47b1b975447866a59d16d92fe882e}\label{class_smart_contract_1_1_smart_contract_ac6c47b1b975447866a59d16d92fe882e}} 
+def {\bfseries set\+\_\+coins\+\_\+per\+\_\+reputation\+\_\+token} (self, sender\+\_\+address, factor)
+\item 
+\mbox{\Hypertarget{class_smart_contract_1_1_smart_contract_adc1c69e80e6e11fde584bbcd37284f85}\label{class_smart_contract_1_1_smart_contract_adc1c69e80e6e11fde584bbcd37284f85}} 
+def {\bfseries set\+\_\+payment\+\_\+duration} (self, sender\+\_\+address, duration)
+\item 
+\mbox{\Hypertarget{class_smart_contract_1_1_smart_contract_aacb8fa6992072fdf90415fda78a66148}\label{class_smart_contract_1_1_smart_contract_aacb8fa6992072fdf90415fda78a66148}} 
+def {\bfseries check\+\_\+payments} (self, sender\+\_\+address, current\+\_\+time)
+\item 
+\mbox{\Hypertarget{class_smart_contract_1_1_smart_contract_a7630d7053219be5ff175701637523e1a}\label{class_smart_contract_1_1_smart_contract_a7630d7053219be5ff175701637523e1a}} 
+def {\bfseries make\+\_\+payment} (self, shop\+\_\+address, payment)
+\item 
+\mbox{\Hypertarget{class_smart_contract_1_1_smart_contract_a999674af0040edc43ca9a1162c6826c9}\label{class_smart_contract_1_1_smart_contract_a999674af0040edc43ca9a1162c6826c9}} 
+def {\bfseries make\+\_\+claim} (self, shop\+\_\+address, customer\+\_\+address)
+\item 
+\mbox{\Hypertarget{class_smart_contract_1_1_smart_contract_a0b3ef2dc581778b62b114a18a6ecf425}\label{class_smart_contract_1_1_smart_contract_a0b3ef2dc581778b62b114a18a6ecf425}} 
+def {\bfseries verify\+\_\+claim} (self, shop\+\_\+address, customer\+\_\+address)
+\item 
+\mbox{\Hypertarget{class_smart_contract_1_1_smart_contract_a80b5a9c6340aaca1a057fb5cf35aaab7}\label{class_smart_contract_1_1_smart_contract_a80b5a9c6340aaca1a057fb5cf35aaab7}} 
+def {\bfseries customer\+\_\+buys\+\_\+with\+\_\+coin} (self, customer\+\_\+address, shop\+\_\+address, num\+\_\+coins)
+\item 
+\mbox{\Hypertarget{class_smart_contract_1_1_smart_contract_a1a93d7800c0da5e4a55a274005bbe88f}\label{class_smart_contract_1_1_smart_contract_a1a93d7800c0da5e4a55a274005bbe88f}} 
+def {\bfseries deteriorate\+\_\+customer\+\_\+reputation} (self, sender\+\_\+address, value=0.\+05)
+\item 
+\mbox{\Hypertarget{class_smart_contract_1_1_smart_contract_a1a1470aa88eeac677349edfd34fab0f6}\label{class_smart_contract_1_1_smart_contract_a1a1470aa88eeac677349edfd34fab0f6}} 
+def {\bfseries calculate\+\_\+shop\+\_\+reputation} (self, shop\+\_\+address)
+\item 
+\mbox{\Hypertarget{class_smart_contract_1_1_smart_contract_a049d23b4a18583bacebd00c52b724897}\label{class_smart_contract_1_1_smart_contract_a049d23b4a18583bacebd00c52b724897}} 
+def {\bfseries calculate\+\_\+customer\+\_\+reputation} (self, customer\+\_\+address)
+\item 
+\mbox{\Hypertarget{class_smart_contract_1_1_smart_contract_a6a005188fa4f408363018d54a0db276c}\label{class_smart_contract_1_1_smart_contract_a6a005188fa4f408363018d54a0db276c}} 
+def {\bfseries valid\+\_\+shops\+\_\+left} (self, shop\+\_\+addresses)
+\item 
+\mbox{\Hypertarget{class_smart_contract_1_1_smart_contract_a91f5537dbb6289e0232f9ebab8452c39}\label{class_smart_contract_1_1_smart_contract_a91f5537dbb6289e0232f9ebab8452c39}} 
+def {\bfseries get\+\_\+coin\+\_\+map} (self)
+\item 
+\mbox{\Hypertarget{class_smart_contract_1_1_smart_contract_adc4fc84cb0886588520ba2c5b8ed9d99}\label{class_smart_contract_1_1_smart_contract_adc4fc84cb0886588520ba2c5b8ed9d99}} 
+def {\bfseries get\+\_\+reputation\+\_\+map} (self)
+\item 
+\mbox{\Hypertarget{class_smart_contract_1_1_smart_contract_ae6470553cb9e3db19765805689c05c7c}\label{class_smart_contract_1_1_smart_contract_ae6470553cb9e3db19765805689c05c7c}} 
+def {\bfseries get\+\_\+coin\+\_\+purchase\+\_\+map} (self)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_smart_contract_1_1_smart_contract_ac211989cc77f6eceba622bb94faa954b}\label{class_smart_contract_1_1_smart_contract_ac211989cc77f6eceba622bb94faa954b}} 
+{\bfseries coin\+\_\+map}
+\item 
+\mbox{\Hypertarget{class_smart_contract_1_1_smart_contract_a3a64395dba778d06c3ce6e2a3826faad}\label{class_smart_contract_1_1_smart_contract_a3a64395dba778d06c3ce6e2a3826faad}} 
+{\bfseries reputation\+\_\+map}
+\item 
+\mbox{\Hypertarget{class_smart_contract_1_1_smart_contract_aae890929800afe9d33a9cae880aab201}\label{class_smart_contract_1_1_smart_contract_aae890929800afe9d33a9cae880aab201}} 
+{\bfseries customer\+\_\+recycle\+\_\+map}
+\item 
+\mbox{\Hypertarget{class_smart_contract_1_1_smart_contract_a11c156beda2fd1112ef3a8714d9e61de}\label{class_smart_contract_1_1_smart_contract_a11c156beda2fd1112ef3a8714d9e61de}} 
+{\bfseries shop\+\_\+coin\+\_\+map}
+\item 
+\mbox{\Hypertarget{class_smart_contract_1_1_smart_contract_ab094c06e8bc41bf9107a6159f95af492}\label{class_smart_contract_1_1_smart_contract_ab094c06e8bc41bf9107a6159f95af492}} 
+{\bfseries cus\+\_\+buys\+\_\+with\+\_\+coin\+\_\+map}
+\item 
+\mbox{\Hypertarget{class_smart_contract_1_1_smart_contract_ad652d398621ee972abe1c74a04d5bc03}\label{class_smart_contract_1_1_smart_contract_ad652d398621ee972abe1c74a04d5bc03}} 
+{\bfseries status}
+\item 
+\mbox{\Hypertarget{class_smart_contract_1_1_smart_contract_a543fad86dd166d9e29567c0424508a52}\label{class_smart_contract_1_1_smart_contract_a543fad86dd166d9e29567c0424508a52}} 
+{\bfseries current\+\_\+customer\+\_\+address}
+\item 
+\mbox{\Hypertarget{class_smart_contract_1_1_smart_contract_acd90c786485aa072c5b4e96dd7fa3505}\label{class_smart_contract_1_1_smart_contract_acd90c786485aa072c5b4e96dd7fa3505}} 
+{\bfseries current\+\_\+shop\+\_\+address}
+\item 
+\mbox{\Hypertarget{class_smart_contract_1_1_smart_contract_ae1485b34bfa84375c9ba0a0ad12c5435}\label{class_smart_contract_1_1_smart_contract_ae1485b34bfa84375c9ba0a0ad12c5435}} 
+{\bfseries owner\+\_\+address}
+\item 
+\mbox{\Hypertarget{class_smart_contract_1_1_smart_contract_a853b82ee28145c31bc84edfb49d8f738}\label{class_smart_contract_1_1_smart_contract_a853b82ee28145c31bc84edfb49d8f738}} 
+{\bfseries shop\+\_\+oracle}
+\item 
+\mbox{\Hypertarget{class_smart_contract_1_1_smart_contract_a626920b945f3db381cebfd954841cf53}\label{class_smart_contract_1_1_smart_contract_a626920b945f3db381cebfd954841cf53}} 
+{\bfseries time\+\_\+oracle}
+\item 
+\mbox{\Hypertarget{class_smart_contract_1_1_smart_contract_ae0e02f2e9cc6a545af44c991ea1733f2}\label{class_smart_contract_1_1_smart_contract_ae0e02f2e9cc6a545af44c991ea1733f2}} 
+{\bfseries known\+\_\+shops}
+\item 
+\mbox{\Hypertarget{class_smart_contract_1_1_smart_contract_acf3c38cefa3e90afea71f95d52256abf}\label{class_smart_contract_1_1_smart_contract_acf3c38cefa3e90afea71f95d52256abf}} 
+{\bfseries black\+\_\+listed\+\_\+shops}
+\item 
+\mbox{\Hypertarget{class_smart_contract_1_1_smart_contract_a9a909027ab1003841affa9ecefc1932b}\label{class_smart_contract_1_1_smart_contract_a9a909027ab1003841affa9ecefc1932b}} 
+{\bfseries shop\+\_\+payment\+\_\+times}
+\item 
+\mbox{\Hypertarget{class_smart_contract_1_1_smart_contract_aeef5c2db8e7e5a28a0240920df945ac9}\label{class_smart_contract_1_1_smart_contract_aeef5c2db8e7e5a28a0240920df945ac9}} 
+{\bfseries reputation\+\_\+limit}
+\item 
+\mbox{\Hypertarget{class_smart_contract_1_1_smart_contract_a74af331bec11a97e791160cd7062c930}\label{class_smart_contract_1_1_smart_contract_a74af331bec11a97e791160cd7062c930}} 
+{\bfseries coin\+\_\+limit}
+\item 
+\mbox{\Hypertarget{class_smart_contract_1_1_smart_contract_a250470e354f6452ef45f3b28f45eb839}\label{class_smart_contract_1_1_smart_contract_a250470e354f6452ef45f3b28f45eb839}} 
+{\bfseries coins\+\_\+per\+\_\+reputation\+\_\+token}
+\item 
+\mbox{\Hypertarget{class_smart_contract_1_1_smart_contract_a499c8ec7d970a801486ad62b5b422973}\label{class_smart_contract_1_1_smart_contract_a499c8ec7d970a801486ad62b5b422973}} 
+{\bfseries payment\+\_\+due\+\_\+date}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/prash/workspace/dev\+\_\+space/demo\+\_\+apps/\+Reusabili\+Token/\+Reusabili\+Token\+Simulator/src/Smart\+Contract.\+py\end{DoxyCompactItemize}
