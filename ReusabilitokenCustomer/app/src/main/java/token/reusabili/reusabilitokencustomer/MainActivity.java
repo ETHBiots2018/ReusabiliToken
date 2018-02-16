@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
          });
 
 
-
+        try{
          Button saveAddress = findViewById(R.id.save_address);
          saveAddress.setOnClickListener(new View.OnClickListener() {
              public void onClick(View v) {
@@ -86,7 +86,11 @@ public class MainActivity extends AppCompatActivity {
 
              }
          });
-
+        }
+         catch(Exception e)
+         {
+            Toast.makeText(getApplicationContext(),"No correct ETH - Address set!", Toast.LENGTH_SHORT).show();
+         }
      }
 
      else
