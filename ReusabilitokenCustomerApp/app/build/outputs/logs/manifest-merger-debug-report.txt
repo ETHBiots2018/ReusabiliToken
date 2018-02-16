@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml:2:1-33:12
-INJECTED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml:2:1-33:12
-INJECTED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml:2:1-33:12
-INJECTED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml:2:1-33:12
+ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml:2:1-33:12
 MERGED from [com.google.android.gms:play-services-vision:11.8.0] /home/philipp/.gradle/caches/transforms-1/files-1.1/play-services-vision-11.8.0.aar/2e104cc1d93bcdfe6d284659f77adafc/AndroidManifest.xml:2:1-9:12
 MERGED from [com.android.support:design:26.1.0] /home/philipp/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/5066d4a2f551c0d84a2fb6fa4d5a062f/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] /home/philipp/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/8487e871c8db170fbf1c5fd09c418812/AndroidManifest.xml:17:1-31:12
@@ -28,33 +28,33 @@ MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /home
 MERGED from [com.google.android.gms:play-services-vision-common-license:11.8.0] /home/philipp/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-license-11.8.0.aar/84b84d228dc228bb1e31355df529f7de/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /home/philipp/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/96a6ebdb1620bf2800007b86fd1fab7d/AndroidManifest.xml:2:1-6:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/philipp/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/d7b35178e05b324e2f54a6a206da67ce/AndroidManifest.xml:17:1-30:12
-INJECTED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml:2:1-33:12
-INJECTED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml:2:1-33:12
-INJECTED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml:2:1-33:12
 	package
-		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml:3:5-53
-		INJECTED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml
-		INJECTED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml
+		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml:3:5-53
+		INJECTED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml
-		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml:2:1-33:12
-		INJECTED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml
+		INJECTED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml:2:1-33:12
+		INJECTED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml
-		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml:2:1-33:12
-		INJECTED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml
+		INJECTED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml:2:1-33:12
+		INJECTED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.CAMERA
-ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml:5:5-65
+ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml:5:5-65
 	android:name
-		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml:5:22-62
+		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml:5:22-62
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml:6:5-81
+ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml:6:5-81
 	android:name
-		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml:6:22-78
+		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml:6:22-78
 application
-ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml:8:5-31:19
+ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml:8:5-31:19
 MERGED from [com.google.android.gms:play-services-vision:11.8.0] /home/philipp/.gradle/caches/transforms-1/files-1.1/play-services-vision-11.8.0.aar/2e104cc1d93bcdfe6d284659f77adafc/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-vision:11.8.0] /home/philipp/.gradle/caches/transforms-1/files-1.1/play-services-vision-11.8.0.aar/2e104cc1d93bcdfe6d284659f77adafc/AndroidManifest.xml:7:5-20
 MERGED from [com.android.support:design:26.1.0] /home/philipp/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/5066d4a2f551c0d84a2fb6fa4d5a062f/AndroidManifest.xml:25:5-29:19
@@ -104,53 +104,53 @@ MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /home/ph
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/philipp/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/d7b35178e05b324e2f54a6a206da67ce/AndroidManifest.xml:24:5-28:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/philipp/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/d7b35178e05b324e2f54a6a206da67ce/AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml:11:9-41
+		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml:11:9-41
 	android:icon
-		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml:10:9-43
+		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml:9:9-35
+		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml:13:9-40
+		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml:13:9-40
 activity#token.reusabili.reusabilitokencustomer.MainActivity
-ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml:14:9-20:20
+ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml:14:9-20:20
 	android:name
-		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml:14:19-47
+		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml:14:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml:15:13-19:29
+ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml:16:17-69
+ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml:16:25-66
+		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml:18:17-77
+ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml:18:27-74
+		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml:18:27-74
 activity#token.reusabili.reusabilitokencustomer.barcode.BarcodeCaptureActivity
-ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml:21:9-23:66
+ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml:21:9-23:66
 	android:theme
-		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml:23:13-63
+		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml:23:13-63
 	android:name
-		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml:22:13-59
+		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml:22:13-59
 activity#token.reusabili.reusabilitokencustomer.ClaimActivity
-ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml:24:9-26:51
+ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml:24:9-26:51
 	android:label
-		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml:26:13-48
+		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml:26:13-48
 	android:name
-		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml:25:13-42
+		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml:25:13-42
 activity#token.reusabili.reusabilitokencustomer.QRCodeActivity
-ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml:27:9-30:58
+ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml:27:9-30:58
 	android:parentActivityName
-		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml:30:13-56
+		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml:30:13-56
 	android:label
-		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml:29:13-58
+		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml:29:13-58
 	android:name
-		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml:28:13-43
+		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml:28:13-43
 uses-sdk
-INJECTED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml
-INJECTED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml
+INJECTED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml
+INJECTED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml
 MERGED from [com.google.android.gms:play-services-vision:11.8.0] /home/philipp/.gradle/caches/transforms-1/files-1.1/play-services-vision-11.8.0.aar/2e104cc1d93bcdfe6d284659f77adafc/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-vision:11.8.0] /home/philipp/.gradle/caches/transforms-1/files-1.1/play-services-vision-11.8.0.aar/2e104cc1d93bcdfe6d284659f77adafc/AndroidManifest.xml:5:5-44
 MERGED from [com.android.support:design:26.1.0] /home/philipp/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/5066d4a2f551c0d84a2fb6fa4d5a062f/AndroidManifest.xml:21:5-23:62
@@ -199,18 +199,18 @@ MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /home/ph
 MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /home/philipp/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/96a6ebdb1620bf2800007b86fd1fab7d/AndroidManifest.xml:4:5-43
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/philipp/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/d7b35178e05b324e2f54a6a206da67ce/AndroidManifest.xml:20:5-22:41
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/philipp/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/d7b35178e05b324e2f54a6a206da67ce/AndroidManifest.xml:20:5-22:41
-INJECTED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml
-INJECTED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml
+INJECTED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml
+INJECTED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:26.1.0] /home/philipp/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/5066d4a2f551c0d84a2fb6fa4d5a062f/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml
-		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml
-		INJECTED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml
+		INJECTED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml
-		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml
-		INJECTED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/src/main/AndroidManifest.xml
+		INJECTED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomerApp/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:26.1.0] /home/philipp/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/5066d4a2f551c0d84a2fb6fa4d5a062f/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:appcompat-v7:26.1.0] /home/philipp/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/8487e871c8db170fbf1c5fd09c418812/AndroidManifest.xml:26:9-28:38
