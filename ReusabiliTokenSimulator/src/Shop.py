@@ -13,6 +13,7 @@ class Shop(object):
         Shop.SHOP_ID += 1
         self.name = 'shop ' + str(self.shop_id)
         self.coin_count = 0
+        self.cum_coin_count = 0
 
     def get_shop_address(self):
         """
@@ -28,6 +29,13 @@ class Shop(object):
         """
         return self.coin_count
 
+    def get_cum_coin_coint(self):
+        """
+        Get the cumulative number of coins collected at this shop
+        :return: cumulative coin count
+        """
+        return self.cum_coin_count
+
     def buy_with_coins(self, coins):
         """
         Every time a customer decides to buy with ReusabiliTokens from this shop, the shop
@@ -36,6 +44,7 @@ class Shop(object):
         :return: None
         """
         self.coin_count += coins
+        self.cum_coin_count += coins
 
     def pay_dues_to_smart_contract(self, smart_contract):
         """
@@ -43,5 +52,7 @@ class Shop(object):
         :param smart_contract: the smart contract to which the payment should be made
         :return: None
         """
-        smart_contract.make_payment(self.shop_id, self.coin_count)
+        trans_res, payment = smart_contract.make_payment(self.shop_id, self.coin_count)
+        if trans_res is True:
+            self.coin_count -= payment
 

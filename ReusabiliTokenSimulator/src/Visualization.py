@@ -23,7 +23,8 @@ def visualize_function(values, name, color, ax=None):
     return ax
 
 
-def visualize_market(smart_contract, customer_list, shop_list, ax_cus=None, ax_shop=None, ax_cp=None, ax_ca=None):
+def visualize_market(smart_contract, customer_list, shop_list, ax_cus=None, ax_shop=None, ax_cp=None, ax_ca=None,
+                     ax_shop_balances=None):
     """
     Function the visualizes the market
     :param smart_contract: the smart contract containing the state of the block chain
@@ -33,14 +34,16 @@ def visualize_market(smart_contract, customer_list, shop_list, ax_cus=None, ax_s
     :param ax_shop: the axis on which we plot the cumulative shop reputation
     :param ax_cp: the axis on which we plot the number of times a customer spent a coin
     :param ax_ca: the axis on which cumulative shop coin count
+    :param ax_shop_balances: the axis on which live shop balances are plotted
     :return: plot axes
     """
     if ax_cus is None or ax_shop is None:
         f = plt.figure()
-        ax_cus = f.add_subplot(2, 2, 1)
-        ax_shop = f.add_subplot(2, 2, 2)
-        ax_cp = f.add_subplot(2, 2, 3)
-        ax_ca = f.add_subplot(2, 2, 4)
+        ax_cus = f.add_subplot(3, 2, 1)
+        ax_shop = f.add_subplot(3, 2, 2)
+        ax_cp = f.add_subplot(3, 2, 3)
+        ax_ca = f.add_subplot(3, 2, 4)
+        ax_shop_balances = f.add_subplot(3, 2, 5)
 
     cus_reps = []
     shop_reps = []
@@ -77,6 +80,12 @@ def visualize_market(smart_contract, customer_list, shop_list, ax_cus=None, ax_s
     ax_ca.set_xticklabels(shop_labels)
     ax_ca.set_xticks(np.arange(len(shop_list)))
 
+    ax_shop_balances.set_xticks(np.arange(len(customer_list)))
+    ax_shop_balances.set_title('live shop balance')
+    ax_shop_balances.grid(True)
+    ax_shop_balances.set_xticklabels(shop_labels)
+    ax_shop_balances.set_xticks(np.arange(len(shop_list)))
+
     for customer in customer_list:
         cus_reps.append(smart_contract.calculate_customer_reputation(customer.get_address()))
 
@@ -88,14 +97,16 @@ def visualize_market(smart_contract, customer_list, shop_list, ax_cus=None, ax_s
     for customer in cp_map:
         coin_purchases[customer] = cp_map[customer]
 
-    coins_collected_in_shops = [shop.get_coin_count() for shop in shop_list]
+    coins_collected_in_shops = [shop.get_cum_coin_coint() for shop in shop_list]
+    shop_balances = [shop.get_coin_count() for shop in shop_list]
 
     ax_cus.bar(np.arange(len(customer_list)), cus_reps, color=customer_colors)
     ax_shop.bar(np.arange(len(shop_list)), shop_reps, color='blue')
     ax_cp.bar(np.arange(len(customer_list)), coin_purchases, color=customer_colors)
     ax_ca.bar(np.arange(len(shop_list)), coins_collected_in_shops, color='magenta')
+    ax_shop_balances.bar(np.arange(len(shop_list)), shop_balances, color='cyan')
     plt.tight_layout()
-    return ax_cus, ax_shop, ax_cp, ax_ca
+    return ax_cus, ax_shop, ax_cp, ax_ca, ax_shop_balances
 
 
 def diminishing_returns(max_val, b1, num_samples=100):

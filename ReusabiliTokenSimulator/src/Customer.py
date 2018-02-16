@@ -82,7 +82,7 @@ class Customer(object):
         at a given instance in time.
         :return: boolean flag indicating the customer's decision to buy with ReusabiliTokens
         """
-        if self.coins > 100:
+        if self.coins > 300:
                 return True
         else:
             return False
@@ -92,7 +92,7 @@ class Customer(object):
         Get the number of coins this customer spends every time he buys something with ReusabiliTokens
         :return: number of coins
         """
-        return 100
+        return 300
 
     def get_coin(self):
         """

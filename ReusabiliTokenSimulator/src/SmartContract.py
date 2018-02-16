@@ -60,18 +60,20 @@ class SmartContract(object):
 
     def make_payment(self, shop_address, payment):
         if shop_address not in self.known_shops:
-            return False
+            return False, -1
 
-        payment_due = self.calculate_shop_reputation(shop_address)
+        payment_due = self.calculate_shop_reputation(shop_address)*3.0
 
         # Yeah, one technically needs to take care of multiple payments, additional payments, etc.
         # Not taking into account all of that now.
         if payment < payment_due:
-            return False
+            return False, -1
 
         if self.time_oracle is not None:
             payment_time = self.time_oracle.get_time()
             self.shop_payment_times[shop_address] = payment_time
+            return True, payment_due
+        return False, -1
 
     def make_claim(self, shop_address, customer_address):
         if self.status != 'ready':
@@ -189,7 +191,7 @@ class SmartContract(object):
         return new_coins
 
     def _calculate_reputation_for_customer(self, customer_reputation, visits):
-        new_rep = self.reputation_limit - np.exp(np.log(self.reputation_limit) - 0.0005*visits)
+        new_rep = (self.reputation_limit - np.exp(np.log(self.reputation_limit) - 0.0005*visits))+10.0
         return new_rep
 
     def calculate_shop_reputation(self, shop_address):

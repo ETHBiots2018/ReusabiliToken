@@ -55,7 +55,7 @@ class SimulationEngine(object):
         """
         shop_addresses = [shop.get_shop_address() for shop in self.shops]
         # empty axes for storing plot handles
-        ax = [None, None, None, None]
+        ax = [None, None, None, None, None]
         plt.ion()
         for day in range(self.sim_iters):
             self.time_oracle.increment_time()
@@ -115,7 +115,7 @@ class SimulationEngine(object):
             self.smart_contract.deteriorate_customer_reputation(self.address, value=0.10)
 
             # visualize the market at every time step
-            ax = visualize_market(self.smart_contract, self.customers, self.shops, ax[0], ax[1], ax[2], ax[3])
+            ax = visualize_market(self.smart_contract, self.customers, self.shops, ax[0], ax[1], ax[2], ax[3], ax[4])
             plt.suptitle('Market after {} days'.format(day))
             plt.pause(0.05)
             plt.show()
