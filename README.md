@@ -6,7 +6,8 @@
 
 
 2) Graphical Python simulation of the economic model (video/gif in the folder)
-![Simulation of our token economy system][token-simulator.gif]
+
+![Simulation of our token economy system][https://github.com/TobiasRohner/BIOTS18/blob/master/token-simulator.gif]
 
 
 3) Working Android application for the authentication of interaction (apk)
