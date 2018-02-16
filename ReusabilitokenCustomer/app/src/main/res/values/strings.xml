@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Reusabilitoken Customer</string>
+    <string name="app_name">CustomerApp</string>
     <string name="claim_label">Claim a Reward</string>
     <string name="input_adress">Enter Account-Address</string>
     <string name="scan_address">Scan Address as QR-Code</string>
