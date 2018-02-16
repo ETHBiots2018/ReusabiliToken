@@ -1,0 +1,4 @@
+#Fri Feb 16 09:08:10 CET 2018
+base.0=/home/philipp/AndroidStudioProjects/BIOTS18/ReusabilitokenCustomer/app/build/intermediates/transforms/dexMerger/debug/94
+path.0=classes.dex
+renamed.0=classes.dex
