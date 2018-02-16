@@ -5,9 +5,9 @@
 1) Concept of ReusabiliToken (explained briefly in the slides and their notes)
 
 
-2) Graphical Python simulation of the economic model (video/gif in the folder)
+2) Graphical Python simulation of the economic model 
 
-![Simulation of our token economy system][https://github.com/TobiasRohner/BIOTS18/blob/master/token-simulator.gif]
+![](https://github.com/TobiasRohner/BIOTS18/blob/master/token-simulator.gif)
 
 
 3) Working Android application for the authentication of interaction (apk)
