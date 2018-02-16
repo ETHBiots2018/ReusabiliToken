@@ -20,3 +20,5 @@ Features.tests.DummyReputationToken
 Features.Utilities.StoreDatabase
 ```
 TLDR: Addition of performable actions that are confirmable by a trusted human.
+
+All dummy classes are just there to test the library. The store database is used to store public keys and ID's of the trusted instances able to confirm an action. This should later be stored on the blockchain to make a synchronized decentralized database avaliable to every instance participating in the program.
