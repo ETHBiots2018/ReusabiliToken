@@ -5,4 +5,18 @@ This Folder contains an extended version of the Genesis library provided by the 
 
 # New Features
 
-The main new feature is the *HumanConfirmableOperation* class. It implements the *IOperation* interface for tokens similar to the ReusabiliToken.
+To get an unserstanding of what the changes are, consider looking at the following files:
+```
+Features.operations.actions.AHumanConfirmableAction
+Features.operations.actions.BringOwnCupAction
+Features.operations.actions.BringOwnPlateAction
+Features.operations.HumanConfirmableActionProof
+Features.operations.HumanConfirmableClaim
+Features.operations.HumanConfirmableOperation
+Features.tests.Address
+Features.tests.DummyRepo
+Features.tests.DummyValueToken
+Features.tests.DummyReputationToken
+Features.Utilities.StoreDatabase
+```
+TLDR: Addition of performable actions that are confirmable by a trusted human.
